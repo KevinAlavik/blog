@@ -4,6 +4,7 @@ description = "An Introduction to My Journey in Programming"
 date = "2024-08-10"
 aliases = ["about-us", "me", "contact"]
 author = "Kevin Alavik"
+toc = true
 +++
 
 ## Introduction
