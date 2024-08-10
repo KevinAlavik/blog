@@ -4,11 +4,11 @@ title = "shittydev.com"
 author = "Kevin Alavik"
 copyright = "© [Kevin Alavik](https://github.com/KevinAlavik)."
 paginate = 3
-languageCode = "en"
-DefaultContentLanguage = "en"
+languageCode = 'en-us'
+contentDir = 'content'
 enableInlineShortcodes = true
 ignoreErrors = ["error-remote-getjson"]
-
+enableEmoji = true
 sectionPagesMenu = "main"
 
 [menu]
