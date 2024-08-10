@@ -1,0 +1,47 @@
+baseURL = "https://shittydev.com"
+theme = "risotto"
+title = "shittydev.com"
+author = "Kevin Alavik"
+copyright = "© [Kevin Alavik](https://github.com/KevinAlavik)."
+paginate = 3
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+ignoreErrors = ["error-remote-getjson"]
+
+sectionPagesMenu = "main"
+
+[params]
+noindex = false
+
+[params.theme]
+palette = "base16-dark"
+
+[params.about]
+title = "shittydev.com"
+description = "A pretty awesome blog"
+logo = "🇸🇪"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/KevinAlavik"
+
+[[params.socialLinks]]
+icon = "fa-solid fa-envelope"
+title = "Email"
+url = "mailto:kevin@alavik.se"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup]
+    [markup.tableOfContents]
+        startLevel = 2
+        endLevel   = 3
+        ordered    = true
