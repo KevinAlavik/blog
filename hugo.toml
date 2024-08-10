@@ -33,7 +33,7 @@ palette = "base16-dark"
 [params.about]
 title = "shittydev.com"
 description = "A pretty awesome blog"
-logo = "🇸🇪"
+
 
 [[params.socialLinks]]
 icon = "fa-brands fa-github"
