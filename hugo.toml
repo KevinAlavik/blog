@@ -11,6 +11,14 @@ ignoreErrors = ["error-remote-getjson"]
 
 sectionPagesMenu = "main"
 
+[menu]
+    [[menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about/"
+        weight = 10
+
+
 [params]
 noindex = false
 
